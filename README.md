@@ -1,2 +1,3 @@
-# Javascript
-Javascript from 0, starting again 
+#  Javascript from 0, starting again 
+
+### Day - 01 Variables 
