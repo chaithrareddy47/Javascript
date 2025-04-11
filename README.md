@@ -25,3 +25,13 @@
  ✅ Conditional Statements (if/else)
  
  ✅ Assignment Challenge – Country Info
+
+ ✅ Truthy and Falsy Values
+✅ Type Conversion & Coercion
+✅ Equality Operators: == vs ===
+✅ Boolean Logic (AND, OR, NOT)
+✅ Logical Operators in Practice
+✅ Switch Statement
+✅ Statements vs Expressions
+✅ Conditional (Ternary) Operator
+✅ JavaScript Releases (ES5, ES6+, ESNext)
