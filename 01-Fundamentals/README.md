@@ -1,3 +1,4 @@
+
 # JavaScript Fundamentals – Part 1 🚀
 
 ## 📚 Topics Covered
@@ -28,35 +29,28 @@ if (js === 'amazing') {
 }
 
 console.log(40 + 6 + 10 + 7);
+```
 
-. Use console.log() to output values.
+---
 
-. Basic if...else conditions.
- <hr>
+## 🔗 Linking JavaScript Files
+- Inline and External JS:
+  ```html
+  <script src="script.js"></script>
+  ```
 
-- Linking JavaScript Files
-Inline and External JS:
-<script src="script.js"></script>
+---
 
-
-🧠 Values & Variables
- - let firstName = "Jhonas";
+## 🧠 Values & Variables
+```js
+let firstName = "Jhonas";
 console.log(firstName);
+```
 
-Variables store values: let, const, var
+---
 
-Naming conventions:
-
-✅ Use camelCase
-
-❌ Cannot start with a number
-
-✅ Can contain _ and $
-
-❌ Avoid reserved keywords like new, name
-
-
-🏁 Assignment 01 – Country Info
+## 🏁 Assignment 01 – Country Info
+```js
 let country = 'India';
 let continent = 'Asia';
 let population = '10 million';
@@ -64,84 +58,64 @@ let population = '10 million';
 console.log(country);
 console.log(continent);
 console.log(population);
+```
 
-🧬 Data Types
+---
 
+## 🧬 Data Types
+```js
 let jsIsFun = true;
-console.log(typeof jsIsFun); // boolean
+console.log(typeof jsIsFun);
 
 let dynamicValue = 'Dynamic';
 dynamicValue = 23;
-console.log(typeof dynamicValue); // number
+console.log(typeof dynamicValue);
 
 let year;
-console.log(typeof year); // undefined
+console.log(typeof year);
 
-console.log(typeof null); // object (quirk in JS)
+console.log(typeof null);
+```
 
-7 Primitive Data Types:
-Number
+---
 
-String
-
-Boolean
-
-Undefined
-
-Null
-
-Symbol
-
-BigInt
-
-🧪 let, const, and var
+## 🧪 `let`, `const`, and `var`
+```js
 let age = 20;
 age = 30;
 
 var myName = 'chai';
-var myName = 'abcs'; // Redeclaration allowed
+var myName = 'abcs';
 
 const birthYear = 1998;
-// birthYear = 2000 ❌ (error)
 
 lastName = 'abcd'; // Global variable (bad practice)
+```
 
-let: block scoped, can reassign
+---
 
-const: cannot reassign or redeclare
-
-var: function scoped, can redeclare
-
-
-➕ Operators
-js
-Copy code
+## ➕ Operators
+```js
 const ageChai = 2025 - 1998;
 console.log(ageChai);
-Arithmetic: +, -, *, /, %, **
+```
 
-Logical: &&, ||, !
+---
 
-Comparison: >, <, >=, ===, !==
-
-✨ Template Literals
-js
-Copy code
+## ✨ Template Literals
+```js
 const year = 2025;
 const firstName = 'chai';
 const birthYear = 1998;
 
 const sentence = `I am ${firstName}, a ${year - birthYear} old student!`;
 console.log(sentence);
-✅ Multiline Strings:
-js
-Copy code
-console.log(`Multi line string
-yayy 🥰
-`);
-🔀 if...else Statement
-js
-Copy code
+```
+
+---
+
+## 🔀 `if...else` Statement
+```js
 const age = 17;
 if (age >= 18) {
   console.log(`You are eligible 😁`);
@@ -149,11 +123,26 @@ if (age >= 18) {
   const yearsLeft = 18 - age;
   console.log(`You are not eligible 🤨. Wait ${yearsLeft} more years.`);
 }
-🔄 Type Conversion
-js
-Copy code
-const sum = 35 + 'hello';
-console.log(sum, typeof sum); // "35hello" string
-Implicit Conversion: happens automatically
+```
 
-Explicit Conversion: done manually using Number(), String()
+---
+
+## 🔄 Type Conversion
+```js
+const sum = 35 + 'hello';
+console.log(sum, typeof sum);
+```
+
+---
+
+
+
+---
+
+## ✅ Next Steps
+- Type Coercion in detail
+- Equality Operators (`==` vs `===`)
+- Truthy & Falsy values
+- Logical Operators
+
+---
