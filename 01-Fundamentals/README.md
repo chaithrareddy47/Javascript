@@ -14,6 +14,15 @@
 - ✅ Template Literals & Multiline Strings
 - ✅ Conditional Statements (`if/else`)
 - ✅ Assignment Challenge – Country Info
+- ✅ Truthy and Falsy Values
+- ✅ Type Conversion & Coercion
+- ✅ Equality Operators: == vs ===
+- ✅ Boolean Logic (AND, OR, NOT)
+- ✅ Logical Operators in Practice
+- ✅ Switch Statement
+- ✅ Statements vs Expressions
+- ✅ Conditional (Ternary) Operator
+- ✅ JavaScript Releases (ES5, ES6+, ESNext)
 
 ---
 
@@ -146,3 +155,63 @@ console.log(sum, typeof sum);
 - Logical Operators
 
 ---
+## Type Conversion & Coercion
+- **Type conversion**: manually converting types using `Number()`, `String()`.
+- **Type coercion**: JS automatically converts types during operations.
+```js
+console.log('23' - '10' - 3); // 10
+
+## Truthy and Falsy Values
+- Falsy: `0`, `''`, `undefined`, `null`, `NaN`
+- Everything else is truthy.
+```js
+console.log(Boolean(0)); // false
+```
+
+## Equality Operators
+- `===` (strict) does **not** perform type coercion.
+- `==` (loose) performs type coercion.
+```js
+const favourite = Number(prompt("What's your favourite number?"));
+if (favourite === 23) {
+  console.log("Cool!");
+}
+```
+
+## Boolean Logic
+- AND `&&`, OR `||`, NOT `!`
+```js
+const canDrive = hasLicense && hasGoodVision && !isTired;
+```
+
+## switch Statement
+```js
+switch (day) {
+  case 'monday':
+    console.log('Plan course');
+    break;
+  case 'tuesday':
+    console.log('Prepare theory');
+    break;
+  default:
+    console.log('Invalid day');
+}
+```
+
+## Statements vs Expressions
+- **Expressions**: produce values (e.g., `3 + 4`, `1991`)
+- **Statements**: perform actions (e.g., `if`, `for`, `while`)
+
+## Ternary Operator
+```js
+const age = 23;
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(`I like to drink ${drink}`);
+```
+
+## JavaScript Versions
+- ES5: 2009
+- ES6 (ES2015): `let`, `const`, arrow functions, template literals, classes, etc.
+- ES2016+: Yearly updates (ES2022 is current)
+- Tools like Babel help convert ES6+ to ES5 for older browsers.
+
