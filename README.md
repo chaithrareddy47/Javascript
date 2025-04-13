@@ -60,4 +60,56 @@ This section covers the foundational topics in JavaScript based on **Jonas Schme
 
 ---
 
+## 📦 DOM Manipulation
+> Working with the Document Object Model to make webpages interactive
 
+### 📄 DOM Basics
+- [x] What is the DOM?
+- [x] DOM Tree Structure
+
+### ✋ Selecting Elements
+- [x] `document.querySelector()`
+- [x] `document.querySelectorAll()`
+- [x] `document.getElementById()`
+- [x] `document.getElementsByClassName()`
+- [x] `document.getElementsByTagName()`
+
+### ✍️ Manipulating Content
+- [x] `.textContent`
+- [x] `.innerHTML`
+- [x] `.innerText`
+- [x] `.value`
+
+### 🎨 Styles, Classes, Attributes
+- [x] Inline Styles with `.style`
+- [x] `classList.add()`, `.remove()`, `.toggle()`
+- [x] `getAttribute()` and `setAttribute()`
+
+### 🧱 Creating & Inserting Elements
+- [x] `document.createElement()`
+- [x] `append()`, `prepend()`, `appendChild()`
+- [x] `insertAdjacentHTML()`
+
+### 🧹 Removing Elements
+- [x] `element.remove()`
+- [x] `parent.removeChild(child)`
+
+### 🎉 Events & Handlers
+- [x] What are Events?
+- [x] `addEventListener()`
+- [x] Common Events (`click`, `input`, `keydown`, etc.)
+- [x] `event` object
+
+### 📌 DOM Traversing
+- [x] `.parentElement`, `.children`
+- [x] `.firstElementChild`, `.lastElementChild`
+- [x] `.previousElementSibling`, `.nextElementSibling`
+- [x] `.closest()`
+
+### 🌀 Event Delegation
+- [x] Event Bubbling & Capturing
+- [x] Delegating Events
+
+---
+
+> ✅ Keep checking off topics as you learn & code along!
