@@ -106,10 +106,6 @@ This section covers the foundational topics in JavaScript based on **Jonas Schme
 - [x] `.previousElementSibling`, `.nextElementSibling`
 - [x] `.closest()`
 
-### 🌀 Event Delegation
-- [x] Event Bubbling & Capturing
-- [x] Delegating Events
 
----
 
-> ✅ Keep checking off topics as you learn & code along!
+
