@@ -17,6 +17,8 @@ console.log(document.querySelector('.guess').value = 23);
 */
 // const inputVal = (document.querySelector(".number").textContent = 13);
 
+/ * guessing game 
+
 let secretNumber = Math.floor(Math.random() * 20) + 1;
 console.log(secretNumber);
 let score = 20;
