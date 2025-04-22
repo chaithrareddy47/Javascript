@@ -1,6 +1,5 @@
 # JavaScript Fundamentals – Part 1 🚀
 
-This section covers the foundational topics in JavaScript based on **Jonas Schmedtmann's course**. Each topic is practiced through code examples and explained with inline comments.
 
 ---
 
