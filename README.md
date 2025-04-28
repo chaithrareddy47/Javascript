@@ -1,5 +1,7 @@
-DOM-Projects
-1 https://chaithrareddy47.github.io/DOM-Counter/
+# DOM-Projects
+## Counter App
+[Counter App](https://chaithrareddy47.github.io/DOM-Counter/)
+-  
 
 
 
